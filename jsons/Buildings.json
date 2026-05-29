@@ -60,7 +60,8 @@
 		"replaces": "Shrine",
 		"faith": 1,
 		"culture": 1,
-		"cost": 20,
+		"production": 1,
+		"cost": 40,
 		"maintenance": 1,
 		"requiredTech": "Pottery"
 	},
@@ -78,8 +79,8 @@
 		"uniqueTo": "Lusitanian",
 		"replaces": "Stone Works",
 		"happiness": 2,
-		"production": 0,
-		"faith": 2,
+		"production": 1,
+		"faith": 1,
 		"requiredNearbyImprovedResources": ["Marble", "Stone"],
 		"maintenance": 0,
 		"hurryCostModifier": 0,
@@ -101,9 +102,10 @@
 		"requiredTech": "Horseback Riding"
 	},
 	{
-		"name": "Kolkhoz",
+		"name": "Sovkhoz",
 		"uniqueTo": "Soviet",
 		"replaces": "Windmill",
+		"food": 2,
 		"production": 2,
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
@@ -173,7 +175,7 @@
 			"[+200]% Gold given to enemy if city is captured <in this city>",
 			"Unbuildable <hidden from users>",
 			"Never destroyed when the city is captured",
-			"Unique Wonder <hidden from users>",
+			"Unique Wonder",
 			"Unsellable <hidden from users>",
 			"Limited to [1] per Civilization <hidden from users>"]
 	},
@@ -185,14 +187,7 @@
 		"uniques": ["Comment [This buildings is solely for the unique feature to function]",
 			"Triggers a global alert upon completion",
 			"Limited to [1] per Civilization", "Destroyed when the city is captured",
-			"Unique Wonder <hidden from users>",
+			"Unique Wonder",
 			"Unbuildable <hidden from users>", "Unsellable <hidden from users>"]
 	},
-	{
-		"name": "Outremer",
-		"faith": 1,
-		"gold": 2,
-		"cost": 0,
-		"uniques": ["[+2 Happiness] <in [Annexed] cities>", "[+1 Faith] from [Fort] tiles [in this city]", "[+2 Faith] from [Citadel] tiles [in this city]", "Unbuildable"]
-	}
 ]
