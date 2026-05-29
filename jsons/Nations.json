@@ -25,7 +25,8 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Carnival",
 		"uniques": ["[+50]% [Culture] [in all cities] <during a Golden Age>",
-			"[Great Artist] is earned [+100]% faster <during a Golden Age>", "[Great Artist] is earned [+50]% faster <when not in a Golden Age>"],
+			"[Great Artist] is earned [+100]% faster <during a Golden Age>",
+			"[Great Artist] is earned [+50]% faster <when not in a Golden Age>"],
 		"cities": ["Rio de Janeiro","São Paulo","Salvador","Brasília","Fortaleza","Belo Horizonte","Manaus","Curitiba","Recife","Porto Alegre",
 			"Belém","Goiânia","Guarulhos","Campinas","São Luis","Maceió","Duque de Caxias","Natal","Campo Grande","Teresina",
 			"Florianópolis","Nova Iguaçu","Sao Bernardo do Campo","João Pessoa","Osasco","Jaboatão dos Guararapes","São José dos Campos","Contagem","Uberlândia","Aracaju","Cuiabá",
@@ -121,9 +122,9 @@
 		"uniques": ["Comment [All civilizations will experience a significant increase in the purchase of items in all cities during [Mali] golden age, while your cities receive [Science], [Gold] and [Great Person] boost during a Golden Age]",
 			"Gain a free [Musa Pilgrimage] [in capital] <upon entering a Golden Age> <hidden from users>",
 			"Remove [Musa Pilgrimage] [in capital] <upon ending a Golden Age> <hidden from users>",
-			"[+33]% [Science] [in all cities] <during a Golden Age> <hidden from users>",
-			"[+33]% [Gold] [in all cities] <during a Golden Age> <hidden from users>",
-			"[+33]% Great Person generation [in all cities] <during a Golden Age> <hidden from users>"],
+			"[+25]% [Science] [in all cities] <during a Golden Age> <hidden from users>",
+			"[+25]% [Gold] [in all cities] <during a Golden Age> <hidden from users>",
+			"[+25]% Great Person generation [in all cities] <during a Golden Age> <hidden from users>"],
 		"cities":["Nyeni","Tombouctu","Gao","Walata","Jenne","Dia","Kuna","Jinjo","Direi",
 		"Kukiya","Diara","Ra's Al-ma","Awlil"]
 	},
@@ -166,7 +167,7 @@
 		"preferredVictoryType": "Scientific",
 		"personality": "Baldwin IV",
 
-		"startIntroPart1": "Great Baldwin IV! Even with his leprosy, you managed to show the world that tolerant coexistence is possible in Jerusalem. After victories and resistance against the Caliphate's troops, your reign over Jerusalem was marked by years of relative peace and tolerance. After our fall by the Great Saladin, years passed and wars upon wars ravaged the sacred soil of the Holy Land.",
+		"startIntroPart1": "May God bless you, King Baldwin IV. After the Crusaders took the holy city, we founded the Crusader states which lasted for many years, blending the religious art of both cultures. Until the troops of the great Saladin rose against our kingdom, taking the holy city and forcing them to wage more holy wars for Jerusalem. War after war, a peace treaty between the two religions was signed, consequently dissolving this sacred kingdom.",
 		"startIntroPart2": "Great King Baldwin! Would it be possible to recreate such a sacred kingdom again? Could we make it shine through time and history?",
 
 		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
@@ -182,8 +183,8 @@
 		"outerColor": [16,16,16],
 		"innerColor": [255,255,48],
 		"favoredReligion": "Christianity",
-		"uniqueName": "Crusaders States",
-		"uniques": ["Comment [Have more [6] extra [Enhancer] [Beliefs] when enhancing a religion]"],
+		"uniqueName": "Crusades States",
+		"uniques": ["Allied City-States provide [Faith] equal to [50]% of what they produce for themselves"],
 		"cities": ["Jerusalem","Ascalon","Acre","Arsur","Naples","Japhe","St. Abraham","Darum","Oultre Lourdan","Caesarea",
 		"Caymont","Cayphas","Galilee","Bessan","Suhete","Maron","Tyre","Montfort","St George of Labeyne","Toron"]
 	},
@@ -212,7 +213,9 @@
 		"innerColor": [0,84,94],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Tribes Coalization",
-		"uniques": ["Earn [33]% of killed [Barbarian] unit's [Strength] as [Stored Food]"],
+		"uniques": ["Gain [5] Influence with a [Scout] gift to a City-State",
+			"Gain [10] Influence with a [Sword] gift to a City-State",
+			"Gain [15] Influence with a [Gunpowder] gift to a City-State"],
 		"cities": ["Olisipo","Viseo","Aeminium","Coninbriga","Caurium","Norba","Ammaia","Lacinimurga","Emerita","Scallabis",
 			"Caetobriga","Metellinum","Igaeditanorum"]
 	},
@@ -262,7 +265,7 @@
 		"attacked": "That's funny, the last ones who took the same actions didn't end up well.",
 		"denounced": "Don't come back anymore!",
 		"defeated": "We were consumed by our own greed. We surrendered to you.",
-		"introduction": "Someone appears, how are you?",
+		"introduction": "Someone appears, how are you? I am King Ghezo, from Dahomey.",
 
 		"neutralHello": "Greetings.",
 		"hateHello": "What?",
@@ -302,7 +305,6 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Mare Clausum",
 		"uniques": ["[1] Movement point cost to embark",
-			"New [{Military} {Water}] units start with [15] XP [in all cities]",
 			"Allied City-States provide [Gold] equal to [25]% of what they produce for themselves"],
 		"cities": ["Lisbon","Porto","Braga","Coimbra","Funchal","Leiria","Goa","Vila Nova de Gaia","Aveiro","Evora",
 			"Faro","Castelo Branco","Bissau","Guarda","Praia","Braganza","Beja","Tomar",
@@ -392,7 +394,7 @@
 		"innerColor": [57,1,0],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Solidarity",
-		"uniques": ["Free Social Policy <upon entering a new era> <starting from the [Classical era]>"],
+		"uniques": ["Free Social Policy <upon entering a new era> <starting from the [post-[Starting Era]]>"],
 
 		"cities": ["Warsaw","Cracow","Lodz","Wroclaw","Poznan„","Gdansk","Szczecin","Bydgoszcz","Lublin","Sopot",
 			"Katowice","Bialystok","Gdynia","Swidnica","Czestochowa","Radom","Torun„","Kielce","Gliwice","Lowicz",
@@ -481,7 +483,7 @@
 		"introduction": "I am Chief Pocatello. You have arrived in the thick of Shoshone land.",
 
 		"neutralHello": "Our time has arrived!",
-		"hateHello": "?",
+		"hateHello": "It's you.",
 		
 		"tradeRequest": "Would you listen to my proposal?",
 
@@ -526,6 +528,8 @@
 			"May not annex cities",
 			"May buy items in puppet cities",
 			"Cannot build [Settler] units",
+			"Comment [(If a [Settler] unit appears, you capital earn over control of [6] tiles)]",
+			"Gain control over [6] tiles [in capital] <upon gaining a [Settler] unit> <hidden from users>",
 			"[Settler] units gain the [Unable to found cities!] promotion <when number of [Cities] is more than [0]> <hidden from users>",
 			"[Conquistador] units gain the [Unable to found cities!] promotion <when number of [Cities] is more than [0]> <hidden from users>"],
 		//// for precautions, militaristic city-states can gift it
@@ -544,12 +548,12 @@
 		"startIntroPart2": "Comrade Stalin! Now you have the chance to avenge our failure! Will you be able to create the communist nation you've always dreamed of? Will the Empire of tomorrow be a nation that withstands the test of time?",
 
 		"declaringWar": "You're a time waste! get out my way!",
-		"attacked": "Haha! We never surrender! comrades, attack!",
-		"defeated": "The fire rises, again. enjoy your victory! because i'll never forget you face.",
+		"attacked": "We never surrender! comrades, attack!",
+		"defeated": "The fire rises, again. enjoy your victory! because we'll never forget you face.",
 		"introduction": "Hello my comrade, we are the Soviet people. We have come in search of our utopia, but if you stand in our way, we will show you war.",
 		
-		"neutralHello": "Oh, it's you.",
-		"hateHello": "...",
+		"neutralHello": "Welcome.",
+		"hateHello": "It's you.",
 		
 		"tradeRequest": "Hello my comrade. I have a proposal for you.",
 
@@ -560,7 +564,7 @@
 		"uniques": [
 			"[Great Engineer] is earned [50]% faster <while the empire is happy>",
 			"[+1 Production] from every specialist [in all cities]",
-			"Will not be chosen for new games <when espionage is disabled>"],
+			"Will not be chosen for new games <when espionage is disabled> <hidden from users>"],
 		
 		"cities": ["Moscow","Leningrad","Stalingrad","Novgorod","Vladimir","Rostov","Kursk","Belgorod","Tambov",
 			"Kalinin","Pskov","Bryansk","Kaluga","Yaroslavl","Kurgan","Saratov","Kostroma","Vologda","Omsk","Murmansk","Smolensk"]
@@ -568,7 +572,7 @@
 	{
 		"name": "The Nazis",
         "leaderName": "Adolf Hitler",
-        "adjective": "Germans",
+        "adjective": "German",
         "preferredVictoryType": "Domination",
         "personality": "Adolf Hitler",
 
@@ -581,7 +585,7 @@
         "introduction": "Greetings, foreigner. i'm the supreme Führer from Germany. what your offer to me?",
 
         "neutralHello": "What now?",
-        "hateHello": "...",
+        "hateHello": "Ahh... you...",
 
         "tradeRequest": "That's an order.",
 
@@ -592,7 +596,7 @@
         "uniques": ["No damage penalty for wounded units <for [Air] units>",
 			"[+1] Movement <for [Land] units> <for [11] turns> <upon declaring war on [All] Civilizations>",
 			"Upon capturing a city, receive [7] times its [Science] production as [Golden Age points] immediately",
-			"Will not be chosen for new games <when espionage is disabled>"],
+			"Will not be chosen for new games <when espionage is disabled> <hidden from users>"],
         "cities": ["Berlin","Hannover","Hamburg","Stettin","Dresden","Breslau","Leipzig","Bremen","Kessel","Frankfurt","Nuremberg","Duesseldorf","Cologne","Sttutgart","Munich"]
 	},
 	{
@@ -653,7 +657,7 @@
         "favoredReligion": "Buddhism",
         "uniqueName": "Spirituality",
         "uniques": ["Comment [May buy [Wonder] buildings with [Faith] for [2] times their normal Production cost]",
-			"May buy [{Wonder} {non-[Unique Wonder]} {Cannot be hurried}] buildings with [Faith] for [3] times their normal Production cost <hidden from users>"],
+			"May buy [{Wonder} {non-[Unique Wonder]} {non-[Cannot be hurried]}] buildings with [Faith] for [2] times their normal Production cost <hidden from users>"],
         "cities": ["Angkor","Roluos","Phimai","Champassak","Banteay Srei","Sambor Prey Kuk","Preah Vihear","Vyadhapura","Nakhom Pathom","U Thong","Rachaburi","Phetchaburi","Vat Nokor","Angkor Borei","Chaiya","Oc Eo","Strung Treng","Maha Rosei","Kapong Cham","Hanchei","Phnom Kulen","Vijaya","Krâchêh"]
 	}
 ]
