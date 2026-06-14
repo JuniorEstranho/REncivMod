@@ -104,7 +104,7 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
 		"requiredResource": "Iron",
-		"promotions": ["Heroism II", "Ultra Cover"],
+		"promotions": ["Heroism II"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
@@ -166,7 +166,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"promotions": ["[Jagas Marauder] ability", "Cover I"],
+		"promotions": ["[Jagas Marauder] ability", "Drill I"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -206,7 +206,7 @@
 		"replaces": "Catapult",
 		"unitType": "Siege",
 		"movement": 2,
-		"strength": 12,
+		"strength": 11,
 		"cost": 100,
 		"requiredTech": "Mathematics",
 		"obsoleteTech": "Physics",
