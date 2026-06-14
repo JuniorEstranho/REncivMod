@@ -37,7 +37,7 @@
 		"leaderName": "Mvemba a Nzinga",
 		"adjective": ["Kongolese"],
 		"startBias": ["Forest"],
-		"preferredVictoryType": "Scientific",
+		"preferredVictoryType": "Cultural",
 		"personality": "Mvemba a Nzinga",
 
 		"startIntroPart1": "Glory to the Kongo King! Lord Mvemba a Nzinga, or as he became known, Alfonso I. His reign over the Kongo was majestic and sacred. After the war against his brother, the Kongo was converted to Catholicism and expanded its kingdom more than ever before, taking over a large part of West Africa and spreading its immense culture and religion. After his death, the Kongo faced unimaginable challenges to survive and was dismantled and annexed by those who claimed to be our allies.",
@@ -59,7 +59,7 @@
 		"uniqueName": "Nkinsi Graces",
 		"uniques": ["Comment [Starts with [Pantheon]]",
 			"[+25]% Great Person generation [in all cities] <in cities with a [enhanced] religion>",
-			"[+1 Culture] [in capital] <for every [5] [[Faith] Per Turn]>",
+			"[+1 Culture] per every [4] [Faith]",
 			"Comment [Impossible found religions, build [Holy site] and earn [Great Prophet]'s]",
 			"Gain enough Faith for a Pantheon <upon founding a city> <before founding a Pantheon> <hidden from users>",
 			"May not generate great prophet equivalents naturally <hidden from users>",
@@ -467,7 +467,8 @@
 		"uniqueName": "Gateway to Africa",
 		"uniques": ["[+1 Culture] from each Trade Route <when below [1] [Happiness]>",
 			"[+2 Culture, +1 Gold] from each Trade Route <when between [1] and [10] [Happiness]>",
-			"[+3 Culture, +2 Gold] from each Trade Route <when below [10] [Happiness]>"],
+			"[+3 Culture, +2 Gold] from each Trade Route <when between [10] and [20] [Happiness]>",
+			"[+4 Culture, +3 Gold] from each Trade Route <when above [20] [Happiness]>"],
 
 		"cities": ["Marrakech","Rabat","Fes","Casablanca","Tangier","Salé","Ouarzazate","Meknes","Agadir","Oujda",
 			"Kenitra","Tetouan","Essaouira","Safi","Taroudannt","Mohammedia","El Aaiun","Beni Mellal","El Jadida","Ksar el Kebir",
