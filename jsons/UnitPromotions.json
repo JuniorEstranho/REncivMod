@@ -1,7 +1,7 @@
 [
   {
     "name": "[Dorobanți] ability",
-    "uniques": ["[+100]% Strength <when attacking> <in [City center] tiles>", "May capture killed [Siege] units"]
+    "uniques": ["[-50]% maintenance costs", "May capture killed [Siege] units"]
   },
   {
     "name": "Deus Vult",
@@ -9,13 +9,9 @@
   },
   {
     "name": "No Fear",
-    "uniques": ["Ignores Zone of Control","No defensive terrain penalty", "Comment [Immune to [Feared] debuff]"],
+    "uniques": ["Ignores Zone of Control","No defensive terrain penalty"]"],
     ///"outerColor": [225,0,0],
     "innerColor": [255,0,0]
-  },
-  {
-    "name": "Ultra Cover",
-    "uniques": ["[+25]% Strength <when defending> <vs [Ranged] units>", "Comment [Impossible enemies units to flank this unit]"]
   },
   {
     "name": "[Agojie] ability",
@@ -27,7 +23,7 @@
   },
   {
     "name": "[Bandeirante Cavalry] ability",
-    "uniques": ["[+25]% Strength <when fighting in [Foreign Land] tiles>"],
+    "uniques": ["[+50]% Strength <when fighting in [Jungle] tiles>"],
   },
   {
     "name": "[Cetbang Cannon] ability",
@@ -69,7 +65,8 @@
   },
   {
     "name": "Defense Breaker",
-    "uniques": ["Comment [Destroys [Fort] when attacking and destroys [Citadel] when attacking with [50]% chance]","Destroys tile improvements when attacking <when fighting in [{Fort} {Foreign Land}] tiles> <hidden from users>", "Destroys tile improvements when attacking <when fighting in [{Citadel} {Foreign Land}] tiles> <with [50]% chance> <hidden from users>"],
+    "uniques": ["Comment [Destroys [Fort] when attacking and destroys [Citadel] when attacking with [50]% chance]","Destroys tile improvements when attacking <when fighting in [{Fort} {Foreign Land}] tiles> <hidden from users>", "Destroys tile improvements when attacking <when fighting in [{Citadel} {Foreign Land}] tiles> <with [50]% chance> <hidden from users>",
+		"Will not be displayed in Civilopedia"],
     ///"outerColor": [225,0,0],
     "innerColor": [255,0,0]
   },
@@ -79,7 +76,7 @@
   },
   {
     "name": "[Werhmacht] ability",
-    "uniques": ["[+50]% Strength <when defending> <vs cities>", "[+25]% Strength <when defending> <vs [Air] units>"]
+    "uniques": ["May capture killed [Armored] units"]
   },
   {
     "name": "Luftwaffe",
@@ -87,7 +84,7 @@
   },
   {
     "name": "Gvardiya",
-    "uniques": ["[+15]% Strength", "No movement cost to pillage"]
+    "uniques": ["[+20]% Strength <when [Wounded]>"]
   },
   { ///Zulu promotions
     "name": "Buffalo Chest",
@@ -111,19 +108,9 @@
     "outerColor": [255,251,248],
 		"innerColor": [116,55,25]
   },
-  {   ////Angola unique promotions ////
-    "name": "Imbangala Kilombo",
-    "uniques": ["[+33]% Strength <when defending>", "[-25]% Strength <when attacking>", "[This Unit] heals [7] HP <every [2] turns> <hidden from users>", "Cannot move","","Unable to pillage <hidden from users>"]
-  },
   { //// Debuff promotions ////
     "name": "Stunned",
-    "uniques": ["[-10]% Strength","[-1] Movement <in [Foreign Land] tiles>"],
-    ///"outerColor": [0,0,255],
-    "innerColor": [0,0,255]
-  },
-  {
-    "name": "Feared",
-    "uniques": ["[-25]% Strength <when attacking>","[-1] Sight"],
+    "uniques": ["[-10]% Strength","[-1] Movement <in [Foreign Land] tiles>","No Sight","Can only heal by pillaging"],
     ///"outerColor": [0,0,255],
     "innerColor": [0,0,255]
   },
