@@ -60,8 +60,10 @@
 		"uniques": ["Comment [Starts with [Pantheon]]",
 			"[+25]% Great Person generation [in all cities] <in cities with a [enhanced] religion>",
 			"[+1 Culture] [in capital] <for every [5] [[Faith] Per Turn]>",
+			"Comment [Impossible found religions, build [Holy site] and earn [Great Prophet]'s",
 			"Gain enough Faith for a Pantheon <upon founding a city> <before founding a Pantheon> <hidden from users>",
-			"May not generate great prophet equivalents naturally"],
+			"May not generate great prophet equivalents naturally <hidden from users>",
+			"[Great Prophet] units gain the [Turn Gold] promotion <hidden from users>"],
 		"cities": ["M'Banza Kongo","Soyo","Lovota","Mbula","N'Kondo","Wandu","Wembo","Kiova","Pinda","Nsoyo","Mbamba","Mpemba","Mukatu","Ndembu","Nkuso",
 		"Mbata","Mpangu","Kundi","Songo","Okango","Kongo a Niaza","Nsonso"]
 	},
@@ -464,9 +466,9 @@
 		"innerColor": [54,189,98],
 		"favoredReligion": "Islam",
 		"uniqueName": "Gateway to Africa",
-		"uniques": ["[+2 Culture, +1 Gold] from each Trade Route",
-			"Comment [Gain [Culture] amount by expending [Great Merchant] units (increases by game progress)]",
-			"Gain [75] [Culture] <(modified by game progress up to [1000]%)> <upon expending a [Great Merchant] unit> <hidden from users>"],
+		"uniques": ["[+1 Culture] from each Trade Route <when below [1] [Happiness>",
+			"[+2 Culture, +1 Gold] from each Trade Route <when between [1] and [10] [Happiness>",
+			"[+3 Culture, +2 Gold] from each Trade Route <when below [10] [Happiness>"],
 
 		"cities": ["Marrakech","Rabat","Fes","Casablanca","Tangier","Salé","Ouarzazate","Meknes","Agadir","Oujda",
 			"Kenitra","Tetouan","Essaouira","Safi","Taroudannt","Mohammedia","El Aaiun","Beni Mellal","El Jadida","Ksar el Kebir",
@@ -497,7 +499,8 @@
 		"innerColor": [86,248,232],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Great Expanse",
-		"uniques": ["[+15]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>","Gain control over [4] tiles [in this city] <upon founding a city>"],
+		"uniques": ["[+15]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
+			"Gain control over [4] tiles [in this city] <upon founding a city>"],
 
 		"cities": ["Moson Kahni","Te-Moak","Agaidika","Goshute","Pohokwi","Washakie","Timbisha","Hukandeka","Duckwater","Tukudeka",
 			"Kuchundeka","Yomba","Kamudeka","Ely","Yambadeka","Nampa","Bannock","Yahandeka","Tetadeka","Deheyaeka",
@@ -568,7 +571,7 @@
 		"favoredReligion": "Christianity",///they're are atheist gorvernmet, but russia is historical orthodoxy
 		"uniqueName": "Space Race",
 		"uniques": [
-			"[+20]% Production when constructing [Spaceship part] units [in all cities]",
+			"[+15]% Production when constructing [Spaceship part] units [in all cities]",
 			"[Great Engineer] is earned [50]% faster <while the empire is happy>",
 			"[+1 Production] from every specialist [in all cities]"],
 		
@@ -600,7 +603,7 @@
         "favoredReligion": "Christianity",
         "uniqueName": "Blitzkrieg",
         "uniques": ["No damage penalty for wounded units <for [Air] units>",
-			"[+1] Movement <for [Land] units> <for [11] turns> <upon declaring war on [All] Civilizations>",
+			"[+1] Movement <for [Melee] units> <for [11] turns> <upon declaring war on [All] Civilizations>",
 			"Comment [[-100]% to Flank Attack bonuses <for [Enemy] units>]",
 			"Upon capturing a city, receive [7] times its [Science] production as [Golden Age points] immediately"],
         "cities": ["Berlin","Hannover","Hamburg","Stettin","Dresden","Breslau","Leipzig","Bremen","Kessel","Frankfurt","Nuremberg","Duesseldorf","Cologne","Sttutgart","Munich"]
@@ -630,7 +633,9 @@
         "outerColor": [255,243,0],
         "innerColor": [0,136,0],
         "uniqueName": "Sika Dwa Kofi",
-        "uniques": ["Gain a free [Golden Stool] [in capital] <if [Golden Stool] is not constructed by anybody>"],
+        "uniques": ["[-25]% Gold cost of upgrading <for [Military] units>",
+			"[+1 Gold] from every specialist [in all cities]",
+			"Comment [Have a extra National Wonder [Golden Stool]]"],
         "cities": ["Kumasi","Bekwai","Manpong","Juaben","Elmina","Bono-Manso","Dankara","Anamabo","Choumie","Yobati","Fosoko","Sowa","Obuasi","Jukwaa","Oguaa","Kelebim","Fomena","Yeji","Yagbum","Salaga","Asantemanso","Abakeseso"]
 	},
 	{
