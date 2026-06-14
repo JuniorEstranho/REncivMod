@@ -57,9 +57,9 @@
 		"innerColor": [168,120,21],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Nkinsi Graces",
-		"uniques": ["Comment[Starts with [Pantheon]]",
-			"[+25]% Great Person generation [in all cities] <in cities with a [foreign] religion>",
-			"[+1 Culture] [in capital] <for every [[Faith] Per turn]>",
+		"uniques": ["Comment [Starts with [Pantheon]]",
+			"[+25]% Great Person generation [in all cities] <in cities with a [enhanced] religion>",
+			"[+1 Culture] [in capital] <for every [5] [[Faith] Per Turn]>",
 			"Gain enough Faith for a Pantheon <upon founding a city> <before founding a Pantheon> <hidden from users>",
 			"May not generate great prophet equivalents naturally"],
 		"cities": ["M'Banza Kongo","Soyo","Lovota","Mbula","N'Kondo","Wandu","Wembo","Kiova","Pinda","Nsoyo","Mbamba","Mpemba","Mukatu","Ndembu","Nkuso",
@@ -186,7 +186,9 @@
 		"innerColor": [255,255,48],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Crusades States",
-		"uniques": ["Comment [Upon entering a war, one can declare a crusade and gain boost in defense or attack.]"],
+		"uniques": ["Comment [Upon entering a war with a Major Civilization, one can declare a crusade and gain boost in defense or attack.]",
+			"Triggers a [New Crusade] event <upon being declared war on by [Major] Civilizations> <hidden from users>",
+			"Triggers a [New Crusade] event <upon being declared war on by [Major] Civilizations> <hidden from users>"],
 		"cities": ["Jerusalem","Ascalon","Acre","Arsur","Naples","Japhe","St. Abraham","Darum","Oultre Lourdan","Caesarea",
 		"Caymont","Cayphas","Galilee","Bessan","Suhete","Maron","Tyre","Montfort","St George of Labeyne","Toron"]
 	},
@@ -215,9 +217,9 @@
 		"innerColor": [0,84,94],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Tribes Coalization",
-		"uniques": ["Gain [5] Influence with a [Scout] gift to a City-State",
-			"Gain [7] Influence with a [Sword] gift to a City-State",
-			"Gain [10] Influence with a [Gunpowder] gift to a City-State"],
+		"uniques": ["Gain [3] Influence with a [Scout] gift to a City-State",
+			"Gain [5] Influence with a [Sword] gift to a City-State",
+			"Gain [7] Influence with a [Gunpowder] gift to a City-State"],
 		"cities": ["Olisipo","Viseo","Aeminium","Coninbriga","Caurium","Norba","Ammaia","Lacinimurga","Emerita","Scallabis",
 			"Caetobriga","Metellinum","Igaeditanorum"]
 	},
@@ -337,7 +339,8 @@
 		"innerColor": [234,0,0],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Mwene Ngola",
-		"uniques": ["Can build [all] improvements at a [+25]% rate"],
+		"uniques": ["Can build [all] improvements at a [+25]% rate",
+			"[+1 Happiness] [in all cities] <for every [3] [Strategic resource]>"],
 		"cities": ["Luanda","Lubango","Cabinda","Malanje","Huambo","Gabela","Sumbe","Waku Kungo","Cacolo","Ndalatando","Catumbela","Benguela","Kuito","Luena","Lucapa","Luau","Mavinga","Ondjiva","Ganda"]
 	},
 	{
@@ -592,8 +595,8 @@
 
         "tradeRequest": "That's an order.",
 
-        "outerColor": [193,0,0],
-        "innerColor": [0,0,0],
+        "outerColor": [16,16,16],
+        "innerColor": [193,0,0],
         "favoredReligion": "Christianity",
         "uniqueName": "Blitzkrieg",
         "uniques": ["No damage penalty for wounded units <for [Air] units>",
