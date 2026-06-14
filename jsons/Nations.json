@@ -341,8 +341,7 @@
 		"innerColor": [234,0,0],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Mwene Ngola",
-		"uniques": ["Can build [all] improvements at a [+25]% rate",
-			"[+1 Happiness] [in all cities] <for every [3] [Strategic resource]>"],
+		"uniques": ["Can build [all] improvements at a [+25]% rate"],
 		"cities": ["Luanda","Lubango","Cabinda","Malanje","Huambo","Gabela","Sumbe","Waku Kungo","Cacolo","Ndalatando","Catumbela","Benguela","Kuito","Luena","Lucapa","Luau","Mavinga","Ondjiva","Ganda"]
 	},
 	{
