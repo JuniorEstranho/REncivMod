@@ -35,12 +35,13 @@
 	{
 		"name": "Kilombo",
 		"uniqueTo": "Angola",
-		"replaces": "Barracks",
+		"replaces": "Water Mill",
+		"maintenance": 0,
 		"food": 2,
-		"hurryCostModifier": 25,
-		"maintenance": 1,
-		"uniques": ["New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured", "[+15]% Production when constructing [Sword] units [in this city]"],
-		"requiredTech": "Bronze Working"
+		"production": 1,
+		"uniques": ["[+15]% Production when constructing [Civilian] units [in this city]"],
+		"cost": 50,
+		"requiredTech": "Calendar"
 	},
 	{
 		"name": "Ziggurat Temple",
@@ -48,7 +49,7 @@
 		"replaces": "Temple",
 		"faith": 2,
 		"science": 2,
-		"uniques": ["[+1 Science] from [River] tiles [in this city]", "[+2 Science] from [Lakes] tiles [in this city]"],
+		"uniques": ["[-10]% Science cost of Technologies"]
 		"requiredBuilding": "Shrine",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
@@ -60,7 +61,7 @@
 		"replaces": "Shrine",
 		"happiness": 1,
 		"faith": 1,
-		"cost": 30,
+		"cost": 40,
 		"maintenance": 1,
 		"requiredTech": "Agriculture"
 	},
@@ -68,6 +69,7 @@
 		"name": "Royal Library",
 		"uniqueTo": "Assyria",
 		"replaces": "Library",
+		"science": 2,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": ["[+1 Science] per [2] population [in this city]","New [Military] units start with [15] XP [in this city]"],
@@ -136,8 +138,7 @@
 			"Never destroyed when the city is captured",
 			"Will not be displayed in Civilopedia",
 			"Unsellable <hidden from users>"]
-	},
-	}, ///Extra luxury for Indonesia
+	}, //Extra luxury for Indonesia
 	{
 		"name": "Nutmeg Plantation",
 		"uniqueTo": "Indonesia",
