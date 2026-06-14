@@ -119,7 +119,6 @@
     "uniques": ["Triggers a [Force transform to Worker] event <upon turn start>","Cannot move"],
     ///"outerColor": [0,0,255],
     "innerColor": [255,255,255]
-  }
   },
   { //// Kongo Anti-Great Prophet promotion ////
     "name": "Turn Gold",
