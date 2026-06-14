@@ -120,4 +120,11 @@
     ///"outerColor": [0,0,255],
     "innerColor": [255,255,255]
   }
+  },
+  { //// Kongo Anti-Great Prophet promotion ////
+    "name": "Turn Gold",
+    "uniques": ["Triggers a [Forced to turn Gold] event <upon turn start>","[This Unit] loses [2] movement <upon turn start>","Cannot move"],
+    ///"outerColor": [0,0,255],
+    "innerColor": [255,255,255]
+  }
 ]
