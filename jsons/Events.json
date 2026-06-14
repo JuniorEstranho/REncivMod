@@ -22,7 +22,7 @@
         "text": "Grace Plunder",
         "uniques": [
           "[+200]% Yield from pillaging tiles <for [15] turns>",
-          "[-50]% Weight to this choice for AI decisions",
+          "[-50]% weight to this choice for AI decisions",
           "Play [choir] sound"
         ]
       },
