@@ -58,9 +58,9 @@
 		"name": "Nzo Nkinsi",
 		"uniqueTo": "Kongo",
 		"replaces": "Shrine",
-		"culture": 1,
 		"happiness": 1,
-		"cost": 40,
+		"faith": 1,
+		"cost": 30,
 		"maintenance": 1,
 		"requiredTech": "Agriculture"
 	},
@@ -121,23 +121,41 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"requiredTech": "Theology"
+	},
+	{
+		"name": "Golden Stool",
+		"uniqueTo": "Ashanti",
+		"isNationalWonder": true,
+		"gold": 2,
+		"culture": 2,
+		"faith": 2,
+		"science": 2,
+		"happiness": 2,
+		"cost": 150,
+		"uniques": ["[+200]% Gold given to enemy if city is captured <in this city>",
+			"Never destroyed when the city is captured",
+			"Will not be displayed in Civilopedia",
+			"Unsellable <hidden from users>"]
+	},
 	}, ///Extra luxury for Indonesia
 	{
 		"name": "Nutmeg Plantation",
+		"uniqueTo": "Indonesia",
 		"isNationalWonder": true,
 		"cost": 1,
 		"uniques": ["Provides [2] [Nutmeg]",
 			"Must be next to [Coast]",
 			"Only available <on foreign continents>",
-			"Only available <for [Indonesia] Civilizations> <hidden from users>",
 			"Only available <in cities without a [Pepper Plantation]> <hidden from users>",
 			"Only available <in cities without a [Cloves Plantation]> <hidden from users>",
 			"Never destroyed when city is captured <hidden from users>",
 			"Limited to [1] per Civilization",
-			"Unsellable"]
+			"Unsellable",
+			"Will not be displayed in Civilopedia"]
 	},
 	{
 		"name": "Cloves Plantation",
+		"uniqueTo": "Indonesia",
 		"isNationalWonder": true,
 		"cost": 1,
 		"uniques": ["Provides [2] [Cloves]",
@@ -148,36 +166,27 @@
 			"Only available <in cities without a [Nutmeg Plantation]> <hidden from users>",
 			"Never destroyed when city is captured <hidden from users>",
 			"Limited to [1] per Civilization",
-			"Unsellable"]
+			"Unsellable",
+			"Will not be displayed in Civilopedia"]
 	},
 	{
 		"name": "Pepper Plantation",
+		"uniqueTo": "Indonesia",
 		"isNationalWonder": true,
 		"cost": 1,
 		"uniques": ["Provides [2] [Pepper]",
 			"Must be next to [Coast]",
 			"Only available <on foreign continents>",
-			"Only available <for [Indonesia] Civilizations> <hidden from users>",
 			"Only available <in cities without a [Cloves Plantation]> <hidden from users>",
 			"Only available <in cities without a [Nutmeg Plantation]> <hidden from users>",
 			"Never destroyed when city is captured <hidden from users>",
 			"Limited to [1] per Civilization",
-			"Unsellable"]
-	},
-	{
-		"name": "Golden Stool",
-		"isNationalWonder": true,
-		"gold": 3,
-		"culture": 3,
-		"cost": 0,
-		"uniques": ["[+200]% Gold given to enemy if city is captured <in this city>",
-			"Unbuildable <hidden from users>",
-			"Never destroyed when the city is captured",
-			"Unsellable <hidden from users>",
-			"Limited to [1] per Civilization <hidden from users>"]
+			"Unsellable",
+			"Will not be displayed in Civilopedia"]
 	},
 	{
 		"name": "Musa Pilgrimage",
+		"uniqueTo": "Mali",
 		"isNationalWonder": true,
 		"gold": 1,
 		"cost": 0,
