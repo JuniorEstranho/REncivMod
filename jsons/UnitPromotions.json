@@ -9,7 +9,7 @@
   },
   {
     "name": "No Fear",
-    "uniques": ["Ignores Zone of Control","No defensive terrain penalty"]"],
+    "uniques": ["Ignores Zone of Control","No defensive terrain penalty"],
     ///"outerColor": [225,0,0],
     "innerColor": [255,0,0]
   },
