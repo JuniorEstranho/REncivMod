@@ -1,12 +1,41 @@
 [
   {
-    "name": "Mansa arrived",
-    "text": "Mansa Musa arrived here! he going to our holy city! the [Gold] cost in all cities are [100]% inflated during the Mali Golden Age!",
+    "name": "New Crusade",
+    "text": "A war has been declared, choose our holy war bonus!",
     "presentation": "Alert",
     "choices": [
       {
-        "text": "Ok.",
+        "text": "Deus Plus Vult",
         "uniques": [
+          "[+15]% Strength <when attacking> <for [15] turns>",
+          "Play [choir] sound"
+        ]
+      },
+      {
+        "text": "Protect Holy Land",
+        "uniques": [
+          "[+15]% Strength <when defending> <for [15] turns>",
+          "Play [choir] sound"
+        ]
+      },
+      {
+        "text": "Grace Plunder",
+        "uniques": [
+          "[+200]% Yield from pillaging tiles <for [15] turns>",
+          "[-50]% Weight to this choice for AI decisions",
+          "Play [choir] sound"
+        ]
+      },
+      {
+        "text": "War Patronage",
+        "uniques": [
+          "[+25]% [Gold] [in all cities] <for [15] turns>",
+          "Play [choir] sound"]
+      },
+      {
+        "text": "Holy Conquest",
+        "uniques": [
+          "[+50]% Strength <vs cities> <when attacking> <for [15] turns>",
           "Play [choir] sound"
         ]
       }
@@ -22,6 +51,20 @@
         "uniques": [
           "[This Unit] is destroyed",
           "Free [Worker] appears"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Force to turn Gold",
+    "text": "Force to turn Gold",
+    "presentation": "None",
+    "choices": [
+      {
+        "text": "Destroy",
+        "uniques": [
+          "[This Unit] is destroyed",
+          "Gain [500] [Gold]"
         ]
       }
     ]
