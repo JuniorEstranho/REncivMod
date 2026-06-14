@@ -56,10 +56,12 @@
 		"outerColor": [255,231,225],
 		"innerColor": [168,120,21],
 		"favoredReligion": "Christianity",
-		"uniqueName": "The Grace Apostle",
-		"uniques": ["Comment [Gain a little [Culture] amount by expending [Religious Unit]]", 
-			"Gain [75] [Culture] <upon expending a [Religious Unit] unit> <(modified by game speed)> <hidden from users>",
-			"[+2] Movement <for [Religious Unit] units>"],
+		"uniqueName": "Nkinsi Graces",
+		"uniques": ["Comment[Starts with [Pantheon]]",
+			"[+25]% Great Person generation [in all cities] <in cities with a [foreign] religion>",
+			"[+1 Culture] [in capital] <for every [[Faith] Per turn]>",
+			"Gain enough Faith for a Pantheon <upon founding a city> <before founding a Pantheon> <hidden from users>",
+			"May not generate great prophet equivalents naturally"],
 		"cities": ["M'Banza Kongo","Soyo","Lovota","Mbula","N'Kondo","Wandu","Wembo","Kiova","Pinda","Nsoyo","Mbamba","Mpemba","Mukatu","Ndembu","Nkuso",
 		"Mbata","Mpangu","Kundi","Songo","Okango","Kongo a Niaza","Nsonso"]
 	},
@@ -122,8 +124,8 @@
 		"uniques": ["Comment [All civilizations will experience a significant increase in the purchase of items in all cities during [Mali] golden age, while your cities receive [Science], [Gold] and [Great Person] boost during a Golden Age]",
 			"Gain a free [Musa Pilgrimage] [in capital] <upon entering a Golden Age> <hidden from users>",
 			"Remove [Musa Pilgrimage] [in capital] <upon ending a Golden Age> <hidden from users>",
-			"[+25]% [Science] [in all cities] <during a Golden Age> <hidden from users>",
-			"[+25]% [Gold] [in all cities] <during a Golden Age> <hidden from users>",
+			"[+20]% [Science] [in all cities] <during a Golden Age> <hidden from users>",
+			"[+20]% [Gold] [in all cities] <during a Golden Age> <hidden from users>",
 			"[+25]% Great Person generation [in all cities] <during a Golden Age> <hidden from users>"],
 		"cities":["Nyeni","Tombouctu","Gao","Walata","Jenne","Dia","Kuna","Jinjo","Direi",
 		"Kukiya","Diara","Ra's Al-ma","Awlil"]
@@ -184,7 +186,7 @@
 		"innerColor": [255,255,48],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Crusades States",
-		"uniques": ["Allied City-States provide [Faith] equal to [50]% of what they produce for themselves"],
+		"uniques": ["Comment [Upon entering a war, one can declare a crusade and gain boost in defense or attack.]"],
 		"cities": ["Jerusalem","Ascalon","Acre","Arsur","Naples","Japhe","St. Abraham","Darum","Oultre Lourdan","Caesarea",
 		"Caymont","Cayphas","Galilee","Bessan","Suhete","Maron","Tyre","Montfort","St George of Labeyne","Toron"]
 	},
@@ -214,8 +216,8 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Tribes Coalization",
 		"uniques": ["Gain [5] Influence with a [Scout] gift to a City-State",
-			"Gain [10] Influence with a [Sword] gift to a City-State",
-			"Gain [15] Influence with a [Gunpowder] gift to a City-State"],
+			"Gain [7] Influence with a [Sword] gift to a City-State",
+			"Gain [10] Influence with a [Gunpowder] gift to a City-State"],
 		"cities": ["Olisipo","Viseo","Aeminium","Coninbriga","Caurium","Norba","Ammaia","Lacinimurga","Emerita","Scallabis",
 			"Caetobriga","Metellinum","Igaeditanorum"]
 	},
@@ -241,8 +243,8 @@
 		
 		"tradeRequest": "My friend, do you think you can accept this request?",
 
-		"outerColor": [0,214,85],
-		"innerColor": [0,43,164],
+		"outerColor": [60, 126, 161],
+		"innerColor": [247, 215, 148],
 		"favoredReligion": "Islam",
 		"uniqueName": "Epic of Gilgamesh",
 		"uniques": ["Empire enters a [5]-turn Golden Age <upon gaining a [Great Person] unit>"],
@@ -275,8 +277,8 @@
 		"outerColor": [250,255,214],
 		"innerColor": [206,0,0],
 		"uniqueName": "Xwetanu",
-		"uniques": ["Earn [25]% of killed [Military] unit's [Strength] as [Gold]",
-			"Upon capturing a city, receive [10] times its [Culture] production as [Faith] immediately",],
+		"uniques": ["Earn [15]% of killed [Military] unit's [Strength] as [Gold]",
+			"Upon capturing a city, receive [7] times its [Culture] production as [Faith] immediately",],
 		"cities": ["Abomey","Parakou","Malanville","Lokossa","Cotonou","Ouidah","Djougou","Natitingou","Kandi","Porto-Novo","Grand-Popo","Covê"]
 	},
 	{		
@@ -305,7 +307,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Mare Clausum",
 		"uniques": ["[1] Movement point cost to embark",
-			"Allied City-States provide [Gold] equal to [25]% of what they produce for themselves"],
+			"Allied City-States provide [Gold] equal to [30]% of what they produce for themselves"],
 		"cities": ["Lisbon","Porto","Braga","Coimbra","Funchal","Leiria","Goa","Vila Nova de Gaia","Aveiro","Evora",
 			"Faro","Castelo Branco","Bissau","Guarda","Praia","Braganza","Beja","Tomar",
 			"Maputo","Tavira","Figueira da Foz","Viana do Castelo","São Tomé and Príncipe","Silves","Sintra","Dili","Lamego"]
@@ -363,9 +365,10 @@
 		"innerColor": [255,177,9],
 		"favoredReligion": "Zoroastrianism",
 		"uniqueName": "Treasures of Nineveh",
-		"uniques": ["[+75]% [Science] [in annexed cities] <for [10] turns> <upon conquering a city> <hidden from users>",
-			"[+75]% [Science] [in puppeted cities] <for [10] turns> <upon conquering a city> <hidden from users>",
-			"Comment [Receive a [Science] boost in annexed/puppeted cities, upon conquering a city]"],
+		"uniques": ["Comment [Receive a amount of [Science], upon conquering a city]",
+			"Upon capturing a city, receive [7] times its [Science] production as [Science] immediately <hidden from users>",
+			"Upon capturing a city, receive [7] times its [Culture] production as [Science] immediately <hidden from users>",
+			"Upon capturing a city, receive [7] times its [Gold] production as [Science] immediately <hidden from users>"],
 		"cities": ["Assur","Nineveh","Nimrud","Kar-Tukulti-Ninurta","Dur-Sharrukin","Halab","Carchemish","Kanesh","Harran","Imgur-Enlil",
 			"Shubat-Enlil","Qatna","Sareisa","Sam al","Qarqar","Til Barsip","Sultantepe","Erbil","Hamath","Guzana",	"Turuspa","Nasibina","Arpad","Kelashin","Urartu","Sabata","Hit"]
 	},
@@ -394,7 +397,7 @@
 		"innerColor": [57,1,0],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Solidarity",
-		"uniques": ["Free Social Policy <upon entering a new era> <starting from the [post-[Starting Era]]>"],
+		"uniques": ["Free Social Policy <upon entering a new era>"],
 
 		"cities": ["Warsaw","Cracow","Lodz","Wroclaw","Poznan„","Gdansk","Szczecin","Bydgoszcz","Lublin","Sopot",
 			"Katowice","Bialystok","Gdynia","Swidnica","Czestochowa","Radom","Torun„","Kielce","Gliwice","Lowicz",
@@ -560,11 +563,11 @@
 		"outerColor": [205,0,0],
 		"innerColor": [255,215,0],
 		"favoredReligion": "Christianity",///they're are atheist gorvernmet, but russia is historical orthodoxy
-		"uniqueName": "Iron Fist",
+		"uniqueName": "Space Race",
 		"uniques": [
+			"[+20]% Production when constructing [Spaceship part] units [in all cities]",
 			"[Great Engineer] is earned [50]% faster <while the empire is happy>",
-			"[+1 Production] from every specialist [in all cities]",
-			"Will not be chosen for new games <when espionage is disabled> <hidden from users>"],
+			"[+1 Production] from every specialist [in all cities]"],
 		
 		"cities": ["Moscow","Leningrad","Stalingrad","Novgorod","Vladimir","Rostov","Kursk","Belgorod","Tambov",
 			"Kalinin","Pskov","Bryansk","Kaluga","Yaroslavl","Kurgan","Saratov","Kostroma","Vologda","Omsk","Murmansk","Smolensk"]
@@ -577,10 +580,10 @@
         "personality": "Adolf Hitler",
 
         "startIntroPart1": "",
-        "startIntroPart2": "",
+        "startIntroPart2": "(This is not a n***sm glorification! Just like with the Soviets, everything in this mod is meant to be historically accurate)",
 
         "declaringWar": "Resisting is futile! You should have obeyed me sooner!",
-        "attacked": "What!? You fool!",
+        "attacked": "What!? Foolish man! I'll crush you patetic army.",
         "defeated": "My generals lied to me! All those officers are dishonest! But, you... you'll never catch me alive!",
         "introduction": "Greetings, foreigner. i'm the supreme Führer from Germany. what your offer to me?",
 
@@ -595,8 +598,8 @@
         "uniqueName": "Blitzkrieg",
         "uniques": ["No damage penalty for wounded units <for [Air] units>",
 			"[+1] Movement <for [Land] units> <for [11] turns> <upon declaring war on [All] Civilizations>",
-			"Upon capturing a city, receive [7] times its [Science] production as [Golden Age points] immediately",
-			"Will not be chosen for new games <when espionage is disabled> <hidden from users>"],
+			"Comment [[-100]% to Flank Attack bonuses <for [Enemy] units>]",
+			"Upon capturing a city, receive [7] times its [Science] production as [Golden Age points] immediately"],
         "cities": ["Berlin","Hannover","Hamburg","Stettin","Dresden","Breslau","Leipzig","Bremen","Kessel","Frankfurt","Nuremberg","Duesseldorf","Cologne","Sttutgart","Munich"]
 	},
 	{
@@ -624,10 +627,7 @@
         "outerColor": [255,243,0],
         "innerColor": [0,136,0],
         "uniqueName": "Sika Dwa Kofi",
-        "uniques": ["Gain a free [Golden Stool] [in capital] <if [Golden Stool] is not constructed by anybody>",
-			"Comment [[Golden Stool] provides [+1 Faith] from every tile adjacent to you [Capital] [City center] after founding a pantheon]",
-			"Comment [[Golden Stool] provides [+1 Gold, +1 Faith] from every tile adjacent to you [Capital] [City center] after founding a religion]",
-			"Comment [[Golden Stool] provides [+2 Gold, +2 Faith] from every tile adjacent to you [Capital] [City center] after enhancing a religion]"],
+        "uniques": ["Gain a free [Golden Stool] [in capital] <if [Golden Stool] is not constructed by anybody>"],
         "cities": ["Kumasi","Bekwai","Manpong","Juaben","Elmina","Bono-Manso","Dankara","Anamabo","Choumie","Yobati","Fosoko","Sowa","Obuasi","Jukwaa","Oguaa","Kelebim","Fomena","Yeji","Yagbum","Salaga","Asantemanso","Abakeseso"]
 	},
 	{
@@ -656,8 +656,11 @@
         "innerColor": [3,46,161],
         "favoredReligion": "Buddhism",
         "uniqueName": "Spirituality",
-        "uniques": ["Comment [May buy [Wonder] buildings with [Faith] for [2] times their normal Production cost]",
-			"May buy [{Wonder} {non-[Unique Wonder]} {non-[Cannot be hurried]}] buildings with [Faith] for [2] times their normal Production cost <hidden from users>"],
-        "cities": ["Angkor","Roluos","Phimai","Champassak","Banteay Srei","Sambor Prey Kuk","Preah Vihear","Vyadhapura","Nakhom Pathom","U Thong","Rachaburi","Phetchaburi","Vat Nokor","Angkor Borei","Chaiya","Oc Eo","Strung Treng","Maha Rosei","Kapong Cham","Hanchei","Phnom Kulen","Vijaya","Krâchêh"]
+        "uniques": ["[+50 Culture] for discovering a Natural Wonder (bonus enhanced to [+100 Culture] if first to discover it)",
+			"[+2 Faith] for every known Natural Wonder",
+			"[+2] Movement <for [Religious Unit] units>"],
+        "cities": ["Angkor","Roluos","Phimai","Champassak","Banteay Srei","Sambor Prey Kuk","Preah Vihear","Vyadhapura","Nakhom Pathom",
+			"U Thong","Rachaburi","Phetchaburi","Vat Nokor","Angkor Borei","Chaiya","Oc Eo","Strung Treng",
+			"Maha Rosei","Kapong Cham","Hanchei","Phnom Kulen","Vijaya","Krâchêh"]
 	}
 ]
