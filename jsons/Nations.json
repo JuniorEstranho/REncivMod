@@ -126,8 +126,8 @@
 		"uniques": ["Comment [All civilizations will experience a significant increase in the purchase of items in all cities during [Mali] golden age, while your cities receive [Science], [Gold] and [Great Person] boost during a Golden Age]",
 			"Gain a free [Musa Pilgrimage] [in capital] <upon entering a Golden Age> <hidden from users>",
 			"Remove [Musa Pilgrimage] [in capital] <upon ending a Golden Age> <hidden from users>",
-			"[+20]% [Science] [in all cities] <during a Golden Age> <hidden from users>",
-			"[+20]% [Gold] [in all cities] <during a Golden Age> <hidden from users>",
+			"[+15]% [Science] [in all cities] <during a Golden Age> <hidden from users>",
+			"[+15]% [Gold] [in all cities] <during a Golden Age> <hidden from users>",
 			"[+25]% Great Person generation [in all cities] <during a Golden Age> <hidden from users>"],
 		"cities":["Nyeni","Tombouctu","Gao","Walata","Jenne","Dia","Kuna","Jinjo","Direi",
 		"Kukiya","Diara","Ra's Al-ma","Awlil"]
@@ -219,9 +219,9 @@
 		"innerColor": [0,84,94],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Tribes Coalization",
-		"uniques": ["Gain [3] Influence with a [Scout] gift to a City-State",
-			"Gain [5] Influence with a [Sword] gift to a City-State",
-			"Gain [7] Influence with a [Gunpowder] gift to a City-State"],
+		"uniques": ["Gain [2] Influence with a [Scout] gift to a City-State",
+			"Gain [4] Influence with a [Sword] gift to a City-State",
+			"Gain [6] Influence with a [Gunpowder] gift to a City-State"],
 		"cities": ["Olisipo","Viseo","Aeminium","Coninbriga","Caurium","Norba","Ammaia","Lacinimurga","Emerita","Scallabis",
 			"Caetobriga","Metellinum","Igaeditanorum"]
 	},
@@ -311,7 +311,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Mare Clausum",
 		"uniques": ["[1] Movement point cost to embark",
-			"Allied City-States provide [Gold] equal to [30]% of what they produce for themselves"],
+			"Allied City-States provide [Gold] equal to [50]% of what they produce for themselves"],
 		"cities": ["Lisbon","Porto","Braga","Coimbra","Funchal","Leiria","Goa","Vila Nova de Gaia","Aveiro","Evora",
 			"Faro","Castelo Branco","Bissau","Guarda","Praia","Braganza","Beja","Tomar",
 			"Maputo","Tavira","Figueira da Foz","Viana do Castelo","São Tomé and Príncipe","Silves","Sintra","Dili","Lamego"]
@@ -341,7 +341,8 @@
 		"innerColor": [234,0,0],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Mwene Ngola",
-		"uniques": ["Can build [all] improvements at a [+25]% rate"],
+		"uniques": ["Can build [all] improvements at a [+25]% rate",
+			"[Gold] cost of purchasing [Military] units [-50]% <when at war>"],
 		"cities": ["Luanda","Lubango","Cabinda","Malanje","Huambo","Gabela","Sumbe","Waku Kungo","Cacolo","Ndalatando","Catumbela","Benguela","Kuito","Luena","Lucapa","Luau","Mavinga","Ondjiva","Ganda"]
 	},
 	{
@@ -569,10 +570,9 @@
 		"outerColor": [205,0,0],
 		"innerColor": [255,215,0],
 		"favoredReligion": "Christianity",///they're are atheist gorvernmet, but russia is historical orthodoxy
-		"uniqueName": "Space Race",
+		"uniqueName": "Iron Fist",
 		"uniques": [
-			"[+15]% Production when constructing [Spaceship part] units [in all cities]",
-			"[Great Engineer] is earned [50]% faster <while the empire is happy>",
+			"[Great Engineer] is earned [50]% faster",
 			"[+1 Production] from every specialist [in all cities]"],
 		
 		"cities": ["Moscow","Leningrad","Stalingrad","Novgorod","Vladimir","Rostov","Kursk","Belgorod","Tambov",
@@ -602,9 +602,9 @@
         "innerColor": [193,0,0],
         "favoredReligion": "Christianity",
         "uniqueName": "Blitzkrieg",
-        "uniques": ["No damage penalty for wounded units <for [Air] units>",
-			"[+1] Movement <for [Melee] units> <for [11] turns> <upon declaring war on [All] Civilizations>",
-			"Comment [[-100]% to Flank Attack bonuses <for [Enemy] units>]",
+        "uniques": ["Comment [Upon declaring war, all [Military] units gain [+1] Movement for [10] turns]",
+			"Comment [No Flank Attack bonuses for [Enemy] units]",
+			"[+1] Movement <for [Military] units> <for [11] turns> <upon declaring war on [All] Civilizations> <hidden from users>",
 			"Upon capturing a city, receive [7] times its [Science] production as [Golden Age points] immediately"],
         "cities": ["Berlin","Hannover","Hamburg","Stettin","Dresden","Breslau","Leipzig","Bremen","Kessel","Frankfurt","Nuremberg","Duesseldorf","Cologne","Sttutgart","Munich"]
 	},
@@ -632,10 +632,9 @@
 
         "outerColor": [255,243,0],
         "innerColor": [0,136,0],
-        "uniqueName": "Sika Dwa Kofi",
-        "uniques": ["[-25]% Gold cost of upgrading <for [Military] units>",
-			"[+1 Gold] from every specialist [in all cities]",
-			"Comment [Have a extra National Wonder [Golden Stool]]"],
+        "uniqueName": "Golden Stool Blesses",
+        "uniques": ["Comment [Can select a bonus when upon gaining a [Great Prophet]]",
+			"Triggers a [Golden Stool Bless] event <upon gaining a [Great Prophet] unit> <hidden from users>"],
         "cities": ["Kumasi","Bekwai","Manpong","Juaben","Elmina","Bono-Manso","Dankara","Anamabo","Choumie","Yobati","Fosoko","Sowa","Obuasi","Jukwaa","Oguaa","Kelebim","Fomena","Yeji","Yagbum","Salaga","Asantemanso","Abakeseso"]
 	},
 	{
