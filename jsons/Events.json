@@ -70,13 +70,36 @@
     ]
   },
   {
-    "name": "Blitzkrieg",
-    "text": "Blitzkrieg",
-    "presentation": "None",
+    "name": "Golden Stool Bless",
+    "text": "The light came from the heavens; the blessing from the golden throne was bestowed upon us.",
+    "presentation": "Alert",
     "choices": [
       {
-        "text": "Blitzkrieg",
+        "text": "Power",
         "uniques": [
+          "Free [Great General] appears",
+          "Play [WLTK] sound"
+        ]
+      },
+      {
+        "text": "Wisdom",
+        "uniques": [
+          "[Great Scientist] is earned [100]% faster <for [10] turns>",
+          "Play [WLTK] sound"
+        ]
+      },
+      {
+        "text": "Richness",
+        "uniques": [
+          "Gain [500] [Gold] <(modified by game speed)>",
+          "Play [WLTK] sound"
+        ]
+      },
+      {
+        "text": "Lightning",
+        "uniques": [
+          "Empire enters golden age",
+          "[+50]% weight to this choice for AI decisions",
           "Play [WLTK] sound"
         ]
       }
