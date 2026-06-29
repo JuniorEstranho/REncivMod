@@ -25,7 +25,7 @@
 		"name": "Painted Monastery",
 		"uniqueTo": "Romania",
 		"replaces": "Garden",
-		"culture": 3,
+		"culture": 4,
 		"faith": 1,
 		"uniques": ["[+25]% Great Person generation [in this city]","Must not be on [Coast]"],
 		"hurryCostModifier": 25,
@@ -39,7 +39,7 @@
 		"maintenance": 0,
 		"food": 2,
 		"production": 1,
-		"uniques": ["[+15]% Production when constructing [Civilian] units [in this city]"],
+		"uniques": ["[+25]% Production when constructing [Civilian] units [in this city]"],
 		"cost": 50,
 		"requiredTech": "Calendar"
 	},
@@ -118,26 +118,11 @@
 		"name": "Candi",
 		"uniqueTo": "Indonesia",
 		"replaces": "Garden",
-		"faith": 2,
+		"faith": 3,
 		"uniques": ["[+25]% Great Person generation [in this city]"],
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"requiredTech": "Theology"
-	},
-	{
-		"name": "Golden Stool",
-		"uniqueTo": "Ashanti",
-		"isNationalWonder": true,
-		"gold": 2,
-		"culture": 2,
-		"faith": 2,
-		"science": 2,
-		"happiness": 2,
-		"cost": 150,
-		"uniques": ["[+200]% Gold given to enemy if city is captured <in this city>",
-			"Never destroyed when the city is captured",
-			"Will not be displayed in Civilopedia",
-			"Unsellable <hidden from users>"]
 	}, //Extra luxury for Indonesia
 	{
 		"name": "Nutmeg Plantation",
