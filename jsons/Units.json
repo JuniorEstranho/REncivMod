@@ -57,7 +57,7 @@
 		"cost": 75,
 		"requiredTech": "Construction",
 		"obsoleteTech": "Machinery",
-		"uniques": ["[-75]% maintenance costs", "Can move immediately once bought"],
+		"uniques": ["[This Unit] heals [5] HP <upon losing a [Sofa] unit>", "[-50]% maintenance costs","Can move immediately once bought"],
 		"upgradesTo": "Crossbowman",
 		"attackSound": "crossbow"
 	},
@@ -130,13 +130,13 @@
 		"replaces": "Musketman",
 		"unitType": "Gunpowder",
 		"movement": 2,
-		"strength": 22,
+		"strength": 25,
 		"cost": 150,
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"promotions": ["[Agojie] ability"],
-		"uniques": ["[+33]% Strength <vs [non-[Gunpowder]] units>","Excess Food converted to Production when under construction"],
+		"promotions": ["No Fear"],
+		"uniques": ["[+25]% Strength <vs [non-[Gunpowder]] units>","Excess Food converted to Production when under construction"],
 		"attackSound": "shot"
 	},
 	{
@@ -166,7 +166,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"promotions": ["[Jagas Marauder] ability", "Drill I"],
+		"promotions": ["[Jagas Marauder] ability", "Woodsman"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -182,6 +182,19 @@
 		"obsoleteTech": "Plastics",
 		"promotions": ["Gvardiya"],
 		"attackSound": "shot"
+	},
+	{
+		"name": "T-55",
+		"uniqueTo": "Soviet",
+		"replaces": "Tank",
+		"unitType": "Armored",
+		"movement": 5,
+		"strength": 70,
+		"cost": 350,
+		"requiredTech": "Combined Arms",
+		"upgradesTo": "Modern Armor",
+		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"attackSound": "tankshot"
 	},
 	{
 		"name": "Turcopole Cavalry",
@@ -331,7 +344,7 @@
 		"movement": 2,
 		"strength": 70,
 		"cost": 375,
-		"promotions": ["[Werhmacht] ability"],
+		"promotions": ["[Werhmacht] ability", "No Fear"],
 		"requiredTech": "Plastics",
 		"upgradesTo": "Mechanized Infantry",
 		"obsoleteTech": "Mobile Tactics",
