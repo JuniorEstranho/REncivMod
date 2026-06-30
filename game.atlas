@@ -340,6 +340,13 @@ UnitIcons/Red Guard
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/T-55
+  rotate: false
+  xy: 1000, 1000
+  size: 200, 200
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/Werhmacht
   rotate: false
   xy: 1200, 800
@@ -385,20 +392,6 @@ BuildingIcons/Ziggurat Temple
 BuildingIcons/Nzo Nkinsi
   rotate: false
   xy: 200, 400
-  size: 200, 200
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Sovkhoz
-  rotate: false
-  xy: 1000, 1000
-  size: 200, 200
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Golden Stool
-  rotate: false
-  xy: 2400, 600
   size: 200, 200
   orig: 100, 100
   offset: 0, 0
@@ -634,7 +627,7 @@ UnitPromotionIcons/Stunned
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Homeland Defensor
+UnitPromotionIcons/Homeland Guardian
   rotate: false
   xy: 2600, 1000
   size: 200, 200
@@ -774,13 +767,6 @@ TileSets/FantasyHex/Units/Ankobia
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Besteiro do Conto
-  rotate: false
-  xy: 5, 1401
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
 TileSets/HexaRealm/Units/Sofa
   rotate: false
   xy: 194, 808
@@ -903,13 +889,6 @@ TileSets/HexaRealm/Units/Asafo Warrior
 TileSets/HexaRealm/Units/Ankobia
   rotate: false
   xy: 340, 938
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Besteiro do Conto
-  rotate: false
-  xy: 487, 938
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
