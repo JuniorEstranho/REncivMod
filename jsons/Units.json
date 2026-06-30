@@ -54,10 +54,10 @@
 		"movement": 2,
 		"strength": 7,
 		"rangedStrength": 11,
-		"cost": 40,
+		"cost": 50,
 		"requiredTech": "Construction",
 		"obsoleteTech": "Machinery",
-		"uniques": ["[This Unit] heals [25] HP <upon losing a [Sofa] unit>", "Can move immediately once bought"],
+		"uniques": ["Can move immediately once bought"],
 		"upgradesTo": "Crossbowman",
 		"attackSound": "arrow"
 	},
@@ -166,7 +166,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+25]% Strength <vs [Pikeman]"],
+		"uniques": ["[+25]% Strength <vs [Pikeman] units>"],
 		"promotions": ["[Jagas Marauder] ability"],
 		"attackSound": "metalhit"
 	},
