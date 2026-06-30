@@ -54,12 +54,12 @@
 		"movement": 2,
 		"strength": 7,
 		"rangedStrength": 11,
-		"cost": 75,
+		"cost": 40,
 		"requiredTech": "Construction",
 		"obsoleteTech": "Machinery",
-		"uniques": ["[This Unit] heals [5] HP <upon losing a [Sofa] unit>", "[-50]% maintenance costs","Can move immediately once bought"],
+		"uniques": ["[This Unit] heals [25] HP <upon losing a [Sofa] unit>", "Can move immediately once bought"],
 		"upgradesTo": "Crossbowman",
-		"attackSound": "crossbow"
+		"attackSound": "arrow"
 	},
 	{
 		"name": "Impi",
@@ -130,7 +130,7 @@
 		"replaces": "Musketman",
 		"unitType": "Gunpowder",
 		"movement": 2,
-		"strength": 25,
+		"strength": 24,
 		"cost": 150,
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
@@ -166,7 +166,8 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"promotions": ["[Jagas Marauder] ability", "Woodsman"],
+		"uniques": ["[+25]% Strength <vs [Pikeman]"],
+		"promotions": ["[Jagas Marauder] ability"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -199,19 +200,18 @@
 	{
 		"name": "Turcopole Cavalry",
 		"uniqueTo": "Jerusalem",
-		"replaces": "Horseman",
+		"replaces": "Knight",
 		"unitType": "Mounted",
-		"movement": 4,
-		"strength": 12,
-		"rangedStrength": 15,
-		"cost": 75,
-		"requiredTech": "Horseback Riding",
+		"movement": 5,
+		"strength": 20,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
 		"requiredResource": "Horses",
-		"upgradesTo": "Knight",
-		"obsoleteTech": "Chivalry",
-		"uniques": ["[+1] Sight","Can move after attacking","No defensive terrain bonus","Can move immediately once bought"],
-		"hurryCostModifier": 20,
-		"attackSound": "arrow"
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Can move immediately once bought"],
+		"promotions": ["Formation I"],
+		"attackSound": "horse"
 	},
 	{
 		"name": "Siege Tower",
