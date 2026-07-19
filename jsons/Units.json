@@ -12,7 +12,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Landship",
 		"promotions": ["[Bandeirante Cavalry] ability"],
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Can see over obstacles"],
+		"uniques": ["Can move after attacking","[-33]% Strength <vs cities> <when attacking>"],
 		"attackSound": "cavalry"
 	},
 	{
@@ -24,8 +24,8 @@
 		"strength": 13,
 		"cost": 75,
 		"requiredTech": "Iron Working",
-		"uniques": ["[+100]% Strength <vs [Archery] units> <when defending>"],
-		"promotions": ["No Fear", "Woodsman"],
+		"uniques": ["Can see over obstacles", "[+100]% Strength <vs [Archery] units> <when defending>"],
+		"promotions": ["Medic"],
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
 		"hurryCostModifier": 20,
@@ -38,8 +38,8 @@
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 50,
-		"cost": 320,
-		"uniques": ["Can be purchased for [175] [Gold] [in all cities]"],
+		"cost": 300,
+		"uniques": ["[+25]% Strength <vs [Infantry] units>"],
 		"promotions": ["[Dorobanți] ability", "Heroism I"],
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
@@ -49,16 +49,16 @@
 	{
 		"name": "Sofa",
 		"uniqueTo": "Mali",
-		"replaces": "Composite Bowman",
+		"replaces": "Crossbowman",
 		"unitType": "Archery",
 		"movement": 2,
-		"strength": 7,
-		"rangedStrength": 11,
-		"cost": 50,
-		"requiredTech": "Construction",
-		"obsoleteTech": "Machinery",
-		"uniques": ["Can move immediately once bought"],
-		"upgradesTo": "Crossbowman",
+		"strength": 14,
+		"cost": 100,
+		"promotions": ["Amphibious"],
+		"uniques": ["Before engaging in combat performs an extra ranged attack with [125]% of melee combat strength"],
+		"requiredTech": "Machinery",
+		"upgradesTo": "Gatling Gun",
+		"obsoleteTech": "Industrialization",
 		"attackSound": "arrow"
 	},
 	{
@@ -70,7 +70,7 @@
 		"strength": 16,
 		"cost": 90,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+25]% Strength <vs [Gunpowder] units>","[+1] additional attacks per turn","[+50]% Strength <vs [Mounted] units>"],
+		"uniques": ["[+25]% Strength <vs [Gunpowder] units>","Before engaging in combat performs an extra ranged attack with [100]% of melee combat strength","[+50]% Strength <vs [Mounted] units>"],
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Metallurgy",
 		"attackSound": "metalhit"
@@ -104,7 +104,7 @@
 		"obsoleteTech": "Steel",
 		"requiredResource": "Iron",
 		"uniques": ["Can move after attacking"],
-		"promotions": ["Heroism II"],
+		"promotions": ["Charge"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
@@ -136,7 +136,7 @@
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
 		"promotions": ["No Fear"],
-		"uniques": ["[+25]% Strength <vs [non-[Gunpowder]] units>","Excess Food converted to Production when under construction"],
+		"uniques": ["[+30]% Strength <vs [non-[Gunpowder]] units>","Excess Food converted to Production when under construction"],
 		"attackSound": "shot"
 	},
 	{
@@ -166,8 +166,8 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+25]% Strength <vs [Pikeman] units>"],
-		"promotions": ["[Jagas Marauder] ability"],
+		"uniques": ["[+33]% Strength <vs cities>"],
+		"promotions": ["[Jagas Marauder] ability", "Quick Study"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -210,7 +210,7 @@
 		"upgradesTo": "Cavalry",
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Can move immediately once bought"],
-		"promotions": ["Formation I"],
+		"promotions": ["Formation I", "Cover I"],
 		"attackSound": "horse"
 	},
 	{
