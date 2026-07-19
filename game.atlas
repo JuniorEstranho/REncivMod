@@ -368,7 +368,7 @@ BuildingIcons/Painted Monastery
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Sankore Madrasah
+BuildingIcons/Mud Madrasah
   rotate: false
   xy: 400, 400
   size: 200, 200
