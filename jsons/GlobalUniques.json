@@ -1,6 +1,7 @@
 {
   "name": "REnciv Mod",
-  "uniques": ["[-100]% Unhappiness from [Population] [in puppeted cities] <when number of [[Ballista Elephant] Units] is more than [0]>"], //cheat script
+  "uniques": ["Cities are razed [10] times as fast <when number of [[Ballista Elephant] Units] is more than [0]>",
+    "[+67 Happiness] [in puppeted cities] <when number of [[Ballista Elephant] Units] is more than [0]>"], //cheat script
   "unitUniques": [
     "No defensive terrain bonus <for [{Military} {Land} {non-[Romania]}] units> <in [Romania] tiles>",
     "[-100]% to Flank Attack bonuses <vs [The Nazis] units>"]
