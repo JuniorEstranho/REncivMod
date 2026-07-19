@@ -123,7 +123,7 @@
 		"innerColor": [255,204,0],
 		"favoredReligion": "Islam",
 		"uniqueName": "Golden Rivers",
-		"uniques": ["[+1 Production, +2 Gold] from every [River]"],
+		"uniques": ["[+2 Gold] from every [River]"],
 		"cities":["Nyeni","Tombouctu","Gao","Walata","Jenne","Dia","Kuna","Jinjo","Direi",
 		"Kukiya","Diara","Ra's Al-ma","Awlil"]
 	},
@@ -246,7 +246,8 @@
 		"innerColor": [247, 215, 148],
 		"favoredReligion": "Islam",
 		"uniqueName": "Epic of Gilgamesh",
-		"uniques": ["Empire enters a [5]-turn Golden Age <upon gaining a [Great Person] unit>"],
+		"uniques": ["[+4 Science] [in all cities] <after discovering [Writing]>",
+			"[+25]% Great Person generation [in all cities] <after discovering [Writing]>"],
 		"cities": ["Uruk","Ur","Eridu","Nippur","Lagash","Umma","Adab","Zabalam","Girsu","Nigin","Larsa",
 			"El Obeid","Shuruppak","Abu Salabikh","Kish","Kutha","Djemdet-Nasr","Tell Agrab","Tutub",
 			"Eshnunna"]
@@ -276,8 +277,7 @@
 		"outerColor": [250,255,214],
 		"innerColor": [206,0,0],
 		"uniqueName": "Xwetanu",
-		"uniques": ["Earn [15]% of killed [Military] unit's [Strength] as [Gold]",
-			"Upon capturing a city, receive [5] times its [Culture] production as [Faith] immediately",],
+		"uniques": ["Earn [20]% of killed [Military] unit's [Strength] as [Gold]"],
 		"cities": ["Abomey","Parakou","Malanville","Lokossa","Cotonou","Ouidah","Djougou","Natitingou","Kandi","Porto-Novo","Grand-Popo","Covê"]
 	},
 	{		
@@ -378,7 +378,7 @@
 		"adjective": ["Polish"],
 		"startBias": ["Plains"],
 		"preferredVictoryType": "Domination",
-		"Personality": "Casimir III",
+		"personality": "Casimir III",
 
 		"startIntroPart1": "All hail noble King Casimir the Great, protector and sovereign of the Kingdom of Poland. You ascended to the throne during a time of great turmoil, with the nation's economy in shambles and its people demoralized by the wars of your predecessor. And yet, your reign marked the beginning of a new era, with affluence and security afforded only by way of your careful governance. Among your most notable achievements, the code of laws you established gave legal authority to many of the accepted customs of the time, strengthening the nation.",
 		"startIntroPart2": "Honored king Casimir, the people have long admired the steady hand of governance you wield. Can you return your kingdom and its subjects to a golden age of prosperity? Will you conquer all those who oppose you, or strive for peaceful relations? Can you build a civilization that will stand the test of time?",
