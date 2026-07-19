@@ -59,7 +59,7 @@
 		"uniqueName": "Nkinsi Graces",
 		"uniques": ["Comment [Starts with [Pantheon]]",
 			"[+25]% Great Person generation [in all cities] <in cities with a [enhanced] religion>",
-			"[+1 Culture] per every [4] [[Faith] Per Turn]",
+			"[+1 Culture] <for every [4] [[Faith] Per Turn]>",
 			"Comment [Impossible found religions, build [Holy site] and earn [Great Prophet]'s]",
 			"Gain enough Faith for a Pantheon <upon founding a city> <before founding a Pantheon> <hidden from users>",
 			"May not generate great prophet equivalents naturally <hidden from users>",
