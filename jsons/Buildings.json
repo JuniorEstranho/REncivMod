@@ -9,16 +9,16 @@
 		"requiredTech": "Bronze Working"
 	},
 	{
-		"name": "Sankore Madrasah",
+		"name": "Mud Madrasah",
 		"uniqueTo": "Mali",
 		"replaces": "University",
 		"faith": 2,
-		"maintenance": 2,
+		"maintenance": 0,
 		"hurryCostModifier": 15,
 		"percentStatBonus": {"science": 33},
 		"specialistSlots": {"Scientist": 2},
 		"requiredBuilding": "Library",
-		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]", "[+2 Science] from [Oasis] tiles [in this city]"],
+		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]", "[+2 Science] from [River] tiles [in this city]"],
 		"requiredTech": "Education"
 	},
 	{
@@ -36,13 +36,12 @@
 	{
 		"name": "Kilombo",
 		"uniqueTo": "Angola",
-		"replaces": "Water Mill",
-		"maintenance": 0,
-		"food": 2,
-		"production": 1,
-		"uniques": ["[+25]% Production when constructing [Civilian] units [in this city]"],
-		"cost": 50,
-		"requiredTech": "Calendar"
+		"replaces": "Barracks",
+		"happiness": 1,
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["New [Military] units start with [15] XP [in this city]","[25]% Food is carried over after population increases [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Bronze Working"
 	},
 	{
 		"name": "Ziggurat Temple",
@@ -159,20 +158,5 @@
 			"Limited to [1] per Civilization",
 			"Unsellable",
 			"Will not be displayed in Civilopedia"]
-	},
-	{
-		"name": "Musa Pilgrimage",
-		"uniqueTo": "Mali",
-		"isNationalWonder": true,
-		"gold": 1,
-		"cost": 0,
-		"uniques": ["Comment [This buildings is solely for the unique feature to function]",
-			"Triggers a global alert upon completion",
-			"Limited to [1] per Civilization",
-			"Destroyed when the city is captured",
-			"Triggers a global alert upon completion",
-			"Will not be displayed in Civilopedia",
-			"Unbuildable <hidden from users>",
-			"Unsellable <hidden from users>"]
 	}
 ]
