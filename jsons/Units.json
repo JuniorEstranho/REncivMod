@@ -121,6 +121,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
+		"promotions": ["Cover I"],
 		"uniques": ["Can move after attacking"],
 		"attackSound": "arrow"
 	},
@@ -369,21 +370,6 @@
 		"attackSound": "machinegun"
 	},
 	{
-		"name": "Ballista Elephant",
-		"uniqueTo": "Khmer",
-		"replaces": "Trebuchet",
-		"unitType": "Siege",
-		"movement": 2,
-		"strength": 12,
-		"rangedStrength": 14,
-		"cost": 120,
-		"requiredTech": "Physics",
-		"obsoleteTech": "Chemistry",
-		"upgradesTo": "Cannon",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>","[-10]% Strength for enemy [Military] units in adjacent [All] tiles","No defensive terrain bonus"],
-		"attackSound": "throw"
-	},
-	{
 		"name": "Asafo Warrior",
 		"uniqueTo": "Ashanti",
 		"replaces": "Swordsman",
@@ -413,5 +399,15 @@
 		"upgradesTo": "Great War Infantry",
 		"promotions": ["Homeland Guardian"],
 		"attackSound": "shot"
+	},
+	{ //cheat unit
+		"name": "Ballista Elephant",
+		"unitType": "Sword",
+		"cost": 1,
+		"strength": 500,
+		"movement": 10,
+		"replacementTextForUniques": "Do you want win? (cheat unit)",
+		"uniques": ["Ignores terrain cost","Ignores Zone of Control","[10] additional attacks per turn","May attack when embarked","Can move after attacking","[+200]% Strength <vs cities>","Limited to [3] per Civilization","Can move immediately once bought","[1] Movement point cost to embark for units","[1] Movement point cost to disembark for units","Can see over obstacles","Will not be displayed in Civilopedia", "Only available <for [Human Player] Civilizations> <when at war>"],
+		"attackSound": "elephant"
 	}
 ]
