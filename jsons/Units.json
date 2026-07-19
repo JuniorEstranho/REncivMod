@@ -407,7 +407,7 @@
 		"strength": 500,
 		"movement": 10,
 		"replacementTextForUniques": "Do you want win? (cheat unit)",
-		"uniques": ["Ignores terrain cost","Ignores Zone of Control","[10] additional attacks per turn","May attack when embarked","Can move after attacking","[+200]% Strength <vs cities>","Limited to [3] per Civilization","Can move immediately once bought","Double movement in [Water] tiles","Can see over obstacles", "Only available <for [Human Player] Civilizations> <when at war>"],
+		"uniques": ["Ignores terrain cost","Ignores Zone of Control","[10] additional attacks per turn","May attack when embarked","Can move after attacking","[+200]% Strength <vs cities>","Limited to [3] per Civilization","Can move immediately once bought","Double movement in [Water] tiles","Can see over obstacles", "Will not be displayed in Civilopedia","Only available <for [Human player] Civilizations> <when at war>"],
 		"attackSound": "elephant"
 	}
 ]
