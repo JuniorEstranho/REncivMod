@@ -402,12 +402,14 @@
 	},
 	{ //cheat unit
 		"name": "Ballista Elephant",
-		"unitType": "Sword",
+		"unitType": "Archery",
 		"cost": 1,
-		"strength": 500,
+		"strength": 1,
+		"rangedStrength": 500,
+		"range": 10,
 		"movement": 10,
 		"replacementTextForUniques": "Do you want win? (cheat unit)",
-		"uniques": ["Ignores terrain cost","Ignores Zone of Control","[10] additional attacks per turn","May attack when embarked","Can move after attacking","[+200]% Strength <vs cities>","Limited to [3] per Civilization","Can move immediately once bought","Double movement in [Water] tiles","Can see over obstacles", "Will not be displayed in Civilopedia","Only available <for [Human player] Civilizations> <when at war>"],
-		"attackSound": "elephant"
+		"uniques": ["Ignores terrain cost","Ignores Zone of Control","[10] additional attacks per turn","May attack when embarked","Can move after attacking","[+200]% Strength <when [Embarked]>","Limited to [3] per Civilization","Can move immediately once bought","Can see over obstacles","Invisible to others","Destroys [in all cities] cities instead of capturing","Can see invisible [Ballista Elephant] units","Ranged attacks may be performed over obstacles", "Will not be displayed in Civilopedia","Only available <for [Human player] Civilizations> <when at war>"],
+		"attackSound": "crossbow"
 	}
 ]
