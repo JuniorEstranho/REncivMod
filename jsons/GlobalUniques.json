@@ -4,5 +4,7 @@
     "[+67 Happiness] [in puppeted cities] <when number of [[Ballista Elephant] Units] is more than [0]>"], //cheat script
   "unitUniques": [
     "No defensive terrain bonus <for [{Military} {Land} {non-[Romania]}] units> <in [Romania] tiles>",
-    "[-100]% to Flank Attack bonuses <vs [The Nazis] units>"]
+    "[-100]% to Flank Attack bonuses <vs [The Nazis] units>", //cheat unit script
+    "[-100]% Strength <vs [Ballista Elephant] units> <for [AI player] Civilizations>",
+    "[-100]% Strength <vs [Human player] units> <when [Ballista Elephant]> <for [AI player] Civilizations>",]
 }
