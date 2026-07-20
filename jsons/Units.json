@@ -21,7 +21,7 @@
 		"replaces": "Swordsman",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 13,
+		"strength": 14,
 		"cost": 75,
 		"requiredTech": "Iron Working",
 		"uniques": ["Can see over obstacles", "[+100]% Strength <vs [Archery] units> <when defending>"],
@@ -49,16 +49,16 @@
 	{
 		"name": "Sofa",
 		"uniqueTo": "Mali",
-		"replaces": "Crossbowman",
+		"replaces": "Composite Bowman",
 		"unitType": "Archery",
 		"movement": 2,
-		"strength": 14,
-		"cost": 100,
-		"promotions": ["Amphibious"],
-		"uniques": ["Before engaging in combat performs an extra ranged attack with [125]% of melee combat strength"],
-		"requiredTech": "Machinery",
-		"upgradesTo": "Gatling Gun",
+		"strength": 7,
+		"rangedStrength": 11,
+		"cost": 50,
+		"uniques": ["Can move immediately once bought"],
+		"requiredTech": "Construction",
 		"obsoleteTech": "Industrialization",
+		"upgradesTo": "Crossbowman",
 		"attackSound": "arrow"
 	},
 	{
@@ -211,7 +211,7 @@
 		"upgradesTo": "Cavalry",
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Can move immediately once bought"],
-		"promotions": ["Formation I", "Cover I"],
+		"promotions": ["Formation I"],
 		"attackSound": "horse"
 	},
 	{
@@ -225,7 +225,7 @@
 		"requiredTech": "Mathematics",
 		"obsoleteTech": "Physics",
 		"upgradesTo": "Trebuchet",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus","[+30]% Strength bonus for [Sword] units within [1] tiles <in tiles adjacent to [{Enemy} {City center}] tiles>","Can only attack [City] units"],
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus","[+30]% Strength bonus for [Sword] units within [1] tiles <in tiles adjacent to [{Enemy} {City center}] tiles>","Can only attack [City] units","Cannot embark"],
 		"promotions": ["Cover I"],
 		"hurryCostModifier": 20,
 		"attackSound": "throw"
@@ -409,7 +409,7 @@
 		"range": 10,
 		"movement": 10,
 		"replacementTextForUniques": "Do you want win? (cheat unit)",
-		"uniques": ["Ignores terrain cost","Ignores Zone of Control","[10] additional attacks per turn","May attack when embarked","Can move after attacking","[+200]% Strength <when [Embarked]>","Limited to [3] per Civilization","Can move immediately once bought","Can see over obstacles","Invisible to others","Destroys [in all cities] cities instead of capturing","Can see invisible [Ballista Elephant] units","Ranged attacks may be performed over obstacles", "Will not be displayed in Civilopedia","Only available <for [Human player] Civilizations> <when at war>"],
+		"uniques": ["Ignores terrain cost","Ignores Zone of Control","[10] additional attacks per turn","May attack when embarked","Can move after attacking","[+200]% Strength <when [Embarked]>","Limited to [3] per Civilization","Can move immediately once bought","Can see over obstacles","Invisible to others","Destroys [in all cities] cities instead of capturing","Can see invisible [Ballista Elephant] units","Ranged attacks may be performed over obstacles", "Will not be displayed in Civilopedia","Only available <for [Human player] Civilizations> <when at war> <if [Cheats Enabled] is constructed by anybody>"],
 		"attackSound": "crossbow"
 	}
 ]
