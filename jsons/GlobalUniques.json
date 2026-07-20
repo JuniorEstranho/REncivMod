@@ -1,6 +1,7 @@
 {
   "name": "REnciv Mod",
-  "uniques": ["Cities are razed [10] times as fast <when number of [[Ballista Elephant] Units] is more than [0]>",
+  "uniques": ["Triggers a [Enable cheats] event <for [Human player] Civilizations> <when number of [turns] is equal to [2]> <upon turn start>", //cheat enable ask
+    "Cities are razed [10] times as fast <when number of [[Ballista Elephant] Units] is more than [0]>",
     "[+67 Happiness] [in puppeted cities] <when number of [[Ballista Elephant] Units] is more than [0]>"], //cheat script
   "unitUniques": [
     "No defensive terrain bonus <for [{Military} {Land} {non-[Romania]}] units> <in [Romania] tiles>",
