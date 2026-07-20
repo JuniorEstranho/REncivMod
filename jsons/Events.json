@@ -91,7 +91,7 @@
       {
         "text": "Richness",
         "uniques": [
-          "Gain [500] [Gold] <(modified by game speed)>",
+          "Gain [300] [Gold] <(modified by game speed)>",
           "Play [WLTK] sound"
         ]
       },
@@ -101,6 +101,24 @@
           "Empire enters golden age",
           "[+50]% weight to this choice for AI decisions",
           "Play [WLTK] sound"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Enable cheats",
+    "text": "Enable cheats? (you can use the overpower [Ballista Elephant] unit)",
+    "presentation": "Alert",
+    "choices": [
+      {
+        "text": "Yes",
+        "uniques": ["Gain a free [Cheats Enabled] [in capital] <hidden from users>",
+          "Play [WLTK] sound"
+        ]
+      },
+      {
+        "text": "No",
+        "uniques": ["Play [click] sound"
         ]
       }
     ]
